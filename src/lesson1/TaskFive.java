@@ -1,7 +1,7 @@
 package lesson1;
 
 public class TaskFive {
-    public static boolean isPalindrome(String s) {
+    public boolean isPalindrome(String s) {
         int start = 0;
         int end = s.length() - 1;
 
