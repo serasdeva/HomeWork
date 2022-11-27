@@ -5,7 +5,7 @@ public class TaskOne {
         int numsLength = m + n - 1;
         while (n - 1 >= 0) {
             if (m - 1 >= 0 && nums1[m - 1] > nums2[n - 1]) {
-                m;
+                m--;
                 nums1[numsLength--] = nums1[m];
             } else {
                 n--;
